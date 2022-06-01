@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    height: 100vh;
+    max-width: 1440px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    color: #7280a7;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: #ffff;
+    width: 450px;
+    height: 700px;
+    border-radius: 1rem;
+    text-align: center;
+    display: grid;        
+}
+
+.card-image img{
+    width: 450px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    background-color: #3829e0;
+    color: #ffff;
+    padding: 20px;
+    font-weight: 700;
+    width: 354px;
+    height: 50px;
+    border-radius: 0.5rem;
+    margin-bottom:  0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 30px #7280a7;
+    
+
+}
+
+h1{ 
+    margin: 25px 0 0 0;   
+    font-size: 2rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);    
+}
+
+p{
+    font-size: 1rem;
+    margin: 15px 50px 0 50px;
+    line-height: 1.3rem;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    width: 354px;
+    height: 101px;
+    margin: 0 auto;   
+}
+
+.plan-iconmusic img{    
+    margin: 25px 25px;
+    float: left;
+}
+
+.plan-detail h2{
+    margin-top: 30px;
+    margin-right: 100px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    float: left;
+}
+
+.plan-detail p{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.plan-detail a{
+    color: #3829e0;
+    float: right;
+    margin: 0 25px 25px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.button-blue:hover{
+    background-color: #7280a7;
+}
+
+.link-cancel a{
+    color: #7280a7;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.link-cancel a:hover{
+    color:hsl(223, 47%, 23%);
+}
+
+.plan-detail a:hover{
+    color: #7280a7;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 15px;
+}
